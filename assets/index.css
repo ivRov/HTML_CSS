@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.nav-bar{
+    background-color: white;
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    padding-left: 10%;
+    
+}
+
+.nav-item>li {
+    margin: 40px;
+    cursor: pointer;
+    font-family:'Lato';
+    color: #868686;
+}
+
+.nav-logo {
+    list-style:none;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+#bg-logo{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* секция 1 баннер */
+
+.banner {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    text-align: center;
+    font-family:'Lato';
+    background-color: #709dca;
+    color: white;
+    padding-top: 7%;
+}
+.banner-h>h2{
+    font-size: xxx-large;
+    
+}
+
+.input-form {
+    margin-top: 30px;
+}
+.input-form>input {
+width:25%;
+height: 35px;
+margin-left: 4px;
+}
+.input-form>button {
+    width: 20%;
+    height: 36px;
+    background-color: #eeba4d;
+    border: none;
+    margin-left: 4px;
+}
+.inputLogoName {
+background-image: url('/assets/img/fullname.png');
+background-position: 0;
+background-repeat: no-repeat;
+}
+.inputLogoEmail {
+background-image: url('/assets/img/email.png');
+background-position: 0;
+background-repeat: no-repeat;
+}
+.inputLogoPhone {
+background-image: url('/assets/img/phone.png');
+background-position: 0;
+background-repeat: no-repeat;
+
+}
+
+.laptop {
+  position: relative;
+  top: 70px;
+  
+}
+
+.laptopborder {
+    position: absolute;
+    width: 32%;
+    height: 73%;
+    left: 34%;
+    top: 5%;
+}
+
+/* секция -2 сервис  */
+.services {
+    color: #414c51;
+    padding-top: 200px;
+    text-align: center;
+}
+.services>h3 {
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 0.9px 0.1px #050505;
+    
+}
+.service {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4);
+}
+.left-service>h4,
+.right-service>h4 {
+    text-align:left;
+    margin-top: 50px;
+}
+.left-service {
+    grid-column: 3/7;
+}
+.left-service>p,
+.right-service>p {
+    padding-top: 10px;
+    text-align: left;
+}
+.right-service {
+ padding-left: 2%;
+}
+.right-service {
+    grid-column: 8/12;
+}
+
+.im{
+    grid-column: 2/3;
+    padding-left: 40%;
+}
+.im>img {
+    margin-top:45%;
+    margin-bottom: 35%;
+}
+.img {
+    grid-column: 7/8;
+    padding-left: 60%;
+}
+.img>img {
+    margin-top: 70%;
+    margin-bottom: 45%;
+}
